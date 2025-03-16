@@ -7,7 +7,7 @@ import os
 from discord.ui import Button, View, Modal, Select
 from discord import app_commands,ui
 
-token = os.getenv('TOKEN')
+token = 'TOKEN'
 
 serverID =  1258352413333655657 # 
 phone = "0985074608" # เบอร์รับเงิน
