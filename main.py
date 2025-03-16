@@ -88,16 +88,16 @@ async def namecommand(interaction, name : str):
 
 # Embeds
 
-@bot.tree.command(name='help', description='Bot Commands')
+@bot.tree.command(name='setup1', description='Bot Commands')
 async def helpcommand(interaction):
-    emmbed = discord.Embed(title='Help Me! - Bot Commands',
-                           description='Bot Commands',
+    emmbed = discord.Embed(title='ระบบขายของ',
+                           description='ระบบออโต้เติมเงินที่#เติมเงิน',
                            color=0x66FFFF,
                            timestamp= discord.utils.utcnow())
 
 
     # ใส่ข้อมูล
-    emmbed.add_field(name='/hello1', value='Hello Commmand', inline=True)
+    emmbed.add_field(name='/buy', value='Hello Commmand', inline=True)
     emmbed.add_field(name='/hello2', value='Hello Commmand', inline=True)
     emmbed.add_field(name='/hello3', value='Hello Commmand', inline=False)
 
