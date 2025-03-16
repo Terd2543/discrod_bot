@@ -75,9 +75,9 @@ async def test(ctx, arg):
 
 
 # Slash Commands
-@bot.tree.command(name='hellobot', description='Replies with Hello')
-async def hellocommand(interaction):
-    await interaction.response.send_message("Hello It's me BOT DISCORD")
+@bot.tree.command(name='setup', description='ขายของ')
+async def settpcommand(interaction):
+    await interaction.response.send_message("ระบบซื้อของออโต้")
 
 
 @bot.tree.command(name='name')
