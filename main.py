@@ -233,4 +233,4 @@ async def shop(interaction: discord.Interaction):
 	
 		
 
-client.run(token)
+bot.run(token)
