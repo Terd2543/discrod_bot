@@ -7,10 +7,11 @@ import os
 from discord.ui import Button, View, Modal, Select
 from discord import app_commands,ui
 
-token = 'TOKEN' # โทเค็นบอท
-serverID =  1258352413333655657 # ไอดีเซิร์ฟเวอร์
+token = os.getenv('TOKEN')
+
+serverID =  1258352413333655657 # 
 phone = "0985074608" # เบอร์รับเงิน
-admin = "piyapat.katkin" # ชื่อแอดมินสำหรับใช้งานคำสั่งบอท
+admin = "piyapat.katkin" # ชื่อแอดมินสำหรับใช้งานคำสั่งบอทi
 
 intents = discord.Intents.all()
 client = discord.Client(intents=intents)
@@ -233,4 +234,5 @@ async def shop(interaction: discord.Interaction):
 	
 		
 
-bot.run(token)
+
+client.run(token)
